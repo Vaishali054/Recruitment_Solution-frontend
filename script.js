@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log(profile);
     // Perform API request to the backend server
     // You would need to replace the URL and method with your actual backend API endpoint
-    fetch(`${process.env.API_URL}/api/signin`, {
+    fetch(`https://recruitment-solution-backend.onrender.com/api/signin`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Perform API request to the backend server
 
-    fetch(`${process.env.API_URL}/api/login`, {
+    fetch(`https://recruitment-solution-backend.onrender.com/api/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Perform API request to the backend server
 
-     fetch(`${process.env.API_URL}/api/search`, {
+     fetch(`https://recruitment-solution-backend.onrender.com/api/search`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
