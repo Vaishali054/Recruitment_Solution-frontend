@@ -157,7 +157,7 @@ console.log(JSON.parse(localStorage.getItem('auth')));
 
           // Log-in successful, redirect to searchPage
 
-           window.location.href = "/searchPage.html";
+           window.location.href = "/frontend/searchPage.html";
         } else {
           // Log-in failed, display error message
           alert(data.message);
